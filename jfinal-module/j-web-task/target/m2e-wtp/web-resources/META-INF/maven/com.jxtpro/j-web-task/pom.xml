@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.jxtpro</groupId>
+    <artifactId>jfinal-module</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  <artifactId>j-web-task</artifactId>
+  <packaging>war</packaging>
+  <name>j-web-task Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+      <dependency>
+		<groupId>com.jfinal</groupId>
+		<artifactId>jfinal</artifactId>
+	</dependency>
+	
+    <!-- 必要jar -->
+    <dependency>
+	 <groupId>it.sauronsoftware.cron4j</groupId>
+	 <artifactId>cron4j</artifactId>
+	 <version>2.2.5</version>
+	</dependency>
+  </dependencies>
+  <build>
+     <finalName>${project.artifactId}-${project.version}</finalName>
+     <plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<port>8080</port>
+					<path>/j-web-task</path>
+					<uriEncoding>UTF-8</uriEncoding>
+					<server>tomcat7</server>
+					<contextReloadable>true</contextReloadable>
+				</configuration>
+			</plugin>
+		</plugins>
+  </build>
+</project>

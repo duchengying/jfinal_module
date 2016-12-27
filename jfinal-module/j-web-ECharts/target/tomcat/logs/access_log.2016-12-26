@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:17:46:45 +0800] "GET /j-web-ECharts HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:17:46:45 +0800] "GET /j-web-ECharts/ HTTP/1.1" 500 268 http-bio-8080-exec-5 23
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:17:49:26 +0800] "GET /j-web-ECharts HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:17:49:26 +0800] "GET /j-web-ECharts/ HTTP/1.1" 200 1142 http-bio-8080-exec-4 144
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:17:49:26 +0800] "GET /j-web-ECharts/echarts/echarts.min.js HTTP/1.1" 404 1023 http-bio-8080-exec-5 10
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:17:51:20 +0800] "GET /j-web-ECharts/ HTTP/1.1" 200 1141 http-bio-8080-exec-7 7
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:17:51:20 +0800] "GET /j-web-ECharts/echars/echarts.min.js HTTP/1.1" 200 556681 http-bio-8080-exec-10 9

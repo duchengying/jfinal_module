@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.jxtpro</groupId>
+    <artifactId>jfinal-module</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  <artifactId>j-web-html</artifactId>
+  <packaging>war</packaging>
+  <name>j-web-html</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    
+     <dependency>
+		<groupId>com.jfinal</groupId>
+		<artifactId>jfinal</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+	</dependency>
+			
+			<dependency>
+				<groupId>org.freemarker</groupId>
+				<artifactId>freemarker</artifactId>
+				<version>2.3.23</version><!--$NO-MVN-MAN-VER$-->
+			</dependency>
+  </dependencies>
+  <build>
+    <finalName>j-web-html</finalName>
+  </build>
+</project>

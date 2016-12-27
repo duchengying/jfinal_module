@@ -1,0 +1,1 @@
+参照 ：http://git.oschina.net/h5lib/jfinal-mail-plugin
