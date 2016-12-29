@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.jxtpro</groupId>
+    <artifactId>jfinal-module</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  <artifactId>j-web-beetlsql</artifactId>
+  <packaging>war</packaging>
+  <name>j-web-beetlsql</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  
+  		<dependency>
+		    <groupId>jstl</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.1.2</version>
+		</dependency>
+    
+		<dependency>
+		    <groupId>taglibs</groupId>
+		    <artifactId>standard</artifactId>
+		    <version>1.1.2</version>
+		</dependency>
+  
+ 	<dependency>
+        <groupId>c3p0</groupId>
+        <artifactId>c3p0</artifactId>
+   	</dependency>
+  
+  	<dependency>
+	    <groupId>com.ibeetl</groupId>
+	    <artifactId>beetlsql</artifactId>
+	    <version>2.7.7</version>
+	</dependency>
+	 <dependency>
+		<groupId>com.jfinal</groupId>
+		<artifactId>jfinal</artifactId>
+	</dependency>
+	
+	 <dependency>
+	    <groupId>com.ibeetl</groupId>
+	    <artifactId>beetl</artifactId>
+	    <version>2.7.0</version>
+	</dependency>
+	<dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+     </dependency>
+	  <dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+	</dependency>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>${project.artifactId}-${project.version}</finalName>
+     <plugins>
+
+			<plugin>  
+                <groupId>org.apache.tomcat.maven</groupId>  
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+					<port>8080</port>
+					<path>/j-web-beetlsql</path>
+					<uriEncoding>UTF-8</uriEncoding>
+				</configuration>
+                <version>2.2</version><!--$NO-MVN-MAN-VER$-->  
+            </plugin>
+		</plugins>
+  </build>
+</project>
