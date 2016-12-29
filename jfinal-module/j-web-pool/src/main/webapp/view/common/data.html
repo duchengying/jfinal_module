@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h4>数据源列表</h4>
+    <table border="1">
+        <thead>
+            <tr>
+            <th >URL</th>
+            <th >DbType</th>
+            <th >正在打开连接数</th>
+            <th >逻辑打开</th>
+            <th >逻辑关闭
+            <th >物理打开</th>
+            <th >物理关闭</th>
+            </tr>
+        </thead>
+        <tbody>
+        <#list datasource as data >
+            <tr>
+                <td>${(data.url)!}</td>
+                <td>${(data.dbType)!}</td>
+                <td>${(data.activeCount)!}</td>
+                <td>${(data.connectCount)!}</td>
+                <td>${(data.closeCount)!}</td>
+                <td>${(data.createCount)!}</td>
+                <td>${(data.destroyCount)!}</td>
+            </tr>
+        </#list>
+    </tbody>
+    </table>
+</body>
+</html>
