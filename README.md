@@ -2,6 +2,9 @@
 
 ######1.执行test.sql
 ######2.看那个项目，就在jxtpro.properties 文件 换成自己的 url user password
+
+### 手册官网：
+
 ######echarts : http://echarts.baidu.com/
 ######ueditor : http://ueditor.baidu.com/website/
 ######ztree : http://www.treejs.cn/v3/main.php#_zTreeInfo
