@@ -2,10 +2,10 @@
 
 ######1.执行test.sql
 ######2.看那个项目，就在jxtpro.properties 文件 换成自己的 url user password
-######echarts：http://echarts.baidu.com/
-######ueditor：http://ueditor.baidu.com/website/
-######ztree：http://www.treejs.cn/v3/main.php#_zTreeInfo
-######beetl:http://ibeetl.com/
+######echarts : http://echarts.baidu.com/
+######ueditor : http://ueditor.baidu.com/website/
+######ztree : http://www.treejs.cn/v3/main.php#_zTreeInfo
+######beetl : http://ibeetl.com/
 
 ###  **1.  j-web-ECharts** 
 柱状图
@@ -47,7 +47,9 @@ ztree树形菜单
 ###  **13. j-web-pool** 
 druid 连接池监视
 ![druid 连接池监视](http://git.oschina.net/uploads/images/2016/1229/140723_60e8b624_617095.png "druid 连接池监视")
-
+###  **13. j-web-beetlsql** 
+beetsql与jfinal集成
+![beetsql与jfinal集成](http://git.oschina.net/uploads/images/2016/1229/194757_d894526c_617095.png "beetsql与jfinal集成")
 
 
 
