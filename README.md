@@ -10,6 +10,8 @@
 ######ztree : http://www.treejs.cn/v3/main.php#_zTreeInfo
 ######beetl : http://ibeetl.com/
 
+### 子功能：
+
 ###  **1.  j-web-ECharts** 
 柱状图
 ![j-web-ECharts](http://git.oschina.net/uploads/images/2016/1228/202553_f43bf3ba_617095.png "j-web-ECharts")
