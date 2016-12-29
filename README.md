@@ -5,7 +5,7 @@
 ######echarts：http://echarts.baidu.com/
 ######ueditor：http://ueditor.baidu.com/website/
 ######ztree：http://www.treejs.cn/v3/main.php#_zTreeInfo
-
+######beetl:http://ibeetl.com/
 
 ###  **1.  j-web-ECharts** 
 柱状图
